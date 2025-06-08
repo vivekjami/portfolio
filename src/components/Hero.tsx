@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import { ChevronDown, Github, Linkedin, Mail } from 'lucide-react';
 import ParticleBackground from './ParticleBackground';
 import TechTicker from './TechTicker';
+import { downloadResume } from '../utils/downloadResume';
 
 const Hero: React.FC = () => {
   const heroRef = useRef<HTMLElement>(null);
@@ -77,6 +78,7 @@ const Hero: React.FC = () => {
               className="border-2 border-accent-blue text-accent-blue px-8 py-4 rounded-lg text-lg font-semibold hover:bg-accent-blue hover:text-primary transition-all"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
+              onClick={downloadResume}
             >
               Download Resume
             </motion.button>

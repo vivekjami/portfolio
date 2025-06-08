@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { Menu, X, Download } from 'lucide-react';
+import { downloadResume } from '../utils/downloadResume';
 
 const Navigation: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -104,6 +105,7 @@ const Navigation: React.FC = () => {
               className="flex items-center space-x-2 bg-gradient-to-r from-accent-blue to-accent-purple px-4 py-2 rounded-lg text-sm font-medium hover:shadow-lg transition-all"
               whileHover={{ scale: 1.05, boxShadow: "0 0 20px rgba(0, 212, 255, 0.3)" }}
               whileTap={{ scale: 0.95 }}
+              onClick={downloadResume}
             >
               <Download size={16} />
               <span>Resume</span>
@@ -149,6 +151,7 @@ const Navigation: React.FC = () => {
             className="flex items-center space-x-2 bg-gradient-to-r from-accent-blue to-accent-purple px-3 py-2 rounded-lg text-base font-medium w-full mt-4"
             whileHover={{ scale: 1.02 }}
             whileTap={{ scale: 0.98 }}
+            onClick={downloadResume}
           >
             <Download size={16} />
             <span>Download Resume</span>

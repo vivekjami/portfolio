@@ -2,6 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import { Code, Zap, Globe, Award } from 'lucide-react';
+import { downloadResume } from '../utils/downloadResume';
 
 const About: React.FC = () => {
   const [ref, inView] = useInView({
@@ -105,6 +106,7 @@ const About: React.FC = () => {
               className="bg-gradient-to-r from-accent-blue to-accent-purple px-8 py-3 rounded-lg font-semibold hover:shadow-lg transition-all mt-8"
               whileHover={{ scale: 1.05, boxShadow: "0 0 30px rgba(0, 212, 255, 0.4)" }}
               whileTap={{ scale: 0.95 }}
+              onClick={downloadResume}
             >
               Download Full Resume
             </motion.button>
