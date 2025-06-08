@@ -15,44 +15,44 @@ const Skills: React.FC = () => {
       title: 'Frontend Development',
       color: 'from-accent-blue to-cyan-400',
       skills: [
-        { name: 'React', level: 95, years: '4+' },
+        { name: 'React', level: 95, years: '3+' },
         { name: 'TypeScript', level: 90, years: '3+' },
-        { name: 'Next.js', level: 88, years: '3+' },
-        { name: 'Tailwind CSS', level: 92, years: '3+' },
-        { name: 'Framer Motion', level: 85, years: '2+' },
+        { name: 'Next.js', level: 88, years: '2+' },
+        { name: 'Tailwind CSS', level: 92, years: '2+' },
+        { name: 'Framer Motion', level: 85, years: '1+' },
       ]
     },
     backend: {
       title: 'Backend Development',
       color: 'from-accent-purple to-violet-400',
       skills: [
-        { name: 'Python', level: 93, years: '5+' },
-        { name: 'Django', level: 90, years: '4+' },
+        { name: 'Python', level: 93, years: '3+' },
+        { name: 'Django', level: 90, years: '3+' },
         { name: 'Node.js', level: 87, years: '3+' },
         { name: 'PostgreSQL', level: 85, years: '4+' },
-        { name: 'REST APIs', level: 92, years: '4+' },
+        { name: 'REST APIs', level: 92, years: '2+' },
       ]
     },
     blockchain: {
       title: 'Blockchain Development',
       color: 'from-accent-green to-emerald-400',
       skills: [
-        { name: 'Solidity', level: 88, years: '3+' },
+        { name: 'Solidity', level: 88, years: '1+' },
         { name: 'Rust', level: 82, years: '2+' },
         { name: 'Solana', level: 90, years: '2+' },
         { name: 'Polkadot', level: 78, years: '1+' },
-        { name: 'Web3.js', level: 85, years: '3+' },
+        { name: 'Web3.js', level: 85, years: '2+' },
       ]
     },
     devops: {
       title: 'DevOps & Cloud',
       color: 'from-orange-400 to-red-400',
       skills: [
-        { name: 'AWS', level: 83, years: '3+' },
+        { name: 'AWS', level: 83, years: '2+' },
         { name: 'GCP', level: 80, years: '2+' },
-        { name: 'Docker', level: 87, years: '3+' },
+        { name: 'Docker', level: 87, years: '2+' },
         { name: 'Kubernetes', level: 75, years: '2+' },
-        { name: 'CI/CD', level: 85, years: '3+' },
+        { name: 'CI/CD', level: 85, years: '2+' },
       ]
     },
     ai: {
