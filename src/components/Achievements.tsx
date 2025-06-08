@@ -17,7 +17,7 @@ const Achievements: React.FC = () => {
       date: '2023',
       category: 'Hackathon',
       color: 'from-yellow-400 to-orange-500',
-      prize: '$5,000'
+      prize: '$9,000'
     },
     {
       icon: Award,
@@ -26,7 +26,7 @@ const Achievements: React.FC = () => {
       date: '2023',
       category: 'Hackathon',
       color: 'from-orange-400 to-red-500',
-      prize: '$3,000'
+      prize: '$250'
     },
     {
       icon: Users,

@@ -11,8 +11,8 @@ const About: React.FC = () => {
   });
 
   const stats = [
-    { icon: Code, label: 'Years Experience', value: '5+', color: 'text-accent-blue' },
-    { icon: Globe, label: 'Projects Completed', value: '50+', color: 'text-accent-purple' },
+    { icon: Code, label: 'Years Experience', value: '2+', color: 'text-accent-blue' },
+    { icon: Globe, label: 'Projects Completed', value: '30+', color: 'text-accent-purple' },
     { icon: Zap, label: 'Hackathons Won', value: '3', color: 'text-accent-green' },
     { icon: Award, label: 'Workshops Led', value: '6+', color: 'text-accent-blue' },
   ];
@@ -61,11 +61,11 @@ const About: React.FC = () => {
             className="space-y-6"
           >
             <h3 className="text-3xl font-bold text-text-primary mb-6">
-              Senior Full-Stack Engineer
+              Software Engineer
             </h3>
             
             <p className="text-lg text-text-secondary leading-relaxed">
-              With over 5 years of experience in full-stack development, I specialize in building 
+              With over 2+ years of experience in full-stack development, I specialize in building 
               scalable blockchain applications and integrating cutting-edge AI technologies. 
               Currently working as a Software Engineer at Rompit Technologies, I'm passionate 
               about creating innovative solutions that push the boundaries of what's possible.
