@@ -60,9 +60,9 @@ const Contact: React.FC = () => {
   ];
 
   const socialLinks = [
-    { icon: Github, href: '#', label: 'GitHub', color: 'hover:text-accent-blue' },
-    { icon: Linkedin, href: '#', label: 'LinkedIn', color: 'hover:text-accent-purple' },
-    { icon: Twitter, href: '#', label: 'Twitter', color: 'hover:text-accent-green' },
+    { icon: Github, href: 'https://github.com/vivekjami', label: 'GitHub', color: 'hover:text-accent-blue' },
+    { icon: Linkedin, href: 'https://www.linkedin.com/in/vivek-jami/', label: 'LinkedIn', color: 'hover:text-accent-purple' },
+    { icon: Twitter, href: 'https://twitter.com/VivekJami4', label: 'Twitter', color: 'hover:text-accent-green' },
   ];
 
   return (

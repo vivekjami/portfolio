@@ -92,8 +92,8 @@ const Hero: React.FC = () => {
             transition={{ duration: 0.8, delay: 1.4 }}
           >
             {[
-              { icon: Github, href: '#', label: 'GitHub' },
-              { icon: Linkedin, href: '#', label: 'LinkedIn' },
+              { icon: Github, href: 'https://github.com/vivekjami', label: 'GitHub' },
+              { icon: Linkedin, href: 'https://www.linkedin.com/in/vivek-jami/', label: 'LinkedIn' },
               { icon: Mail, href: 'mailto:j.vivekvamsi@gmail.com', label: 'Email' },
             ].map(({ icon: Icon, href, label }) => (
               <motion.a

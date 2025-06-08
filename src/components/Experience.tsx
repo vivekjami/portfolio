@@ -43,7 +43,7 @@ const Experience: React.FC = () => {
       current: false
     },
     {
-      title: 'Full-Stack Developer',
+      title: 'Full-Stack Developer intern ',
       company: 'Tech Startup',
       location: 'Hyderabad, India',
       period: '2021 - 2022',
@@ -64,14 +64,14 @@ const Experience: React.FC = () => {
     {
       title: 'Solana Builders Program',
       organization: 'Solana Foundation',
-      period: '2023',
+      period: '2024',
       description: 'Advanced blockchain development program focusing on Solana ecosystem',
       badge: 'Graduate'
     },
     {
       title: 'Advanced SVM Program',
       organization: 'Solana',
-      period: '2023',
+      period: '2025',
       description: 'Specialized training in Solana Virtual Machine development',
       badge: 'Certified'
     }
